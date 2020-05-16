@@ -338,3 +338,23 @@ header {
     padding: 12px;
   }
 }
+
+.top-notice {
+  background: #222;
+  padding: 6px 0;
+  &-content {
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    a {
+      color: #fff;
+      padding: 5px;
+      border: 1px solid #fff;;
+      margin: 2px 8px;
+      display: inline-block;
+      text-decoration: none;
+    }
+  }
+}
