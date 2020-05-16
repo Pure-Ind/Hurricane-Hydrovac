@@ -223,9 +223,11 @@ header {
     padding: 0px;
     display: none;
     top: 12px;
+    
     .full-header-nav-button {
       padding: 5px 18px;
       text-decoration: none;
+      
       color: #c4912c;
       font-weight: 600;
       position: relative;
@@ -287,7 +289,8 @@ header {
       display: block;
       padding: 15px;  
       position: relative;
-      font-weight: 600;
+      font-weight: 800;
+      text-transform: uppercase;
       color: #fff;
       cursor: pointer;
       span {
