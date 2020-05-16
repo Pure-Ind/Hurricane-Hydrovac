@@ -3,7 +3,7 @@ $('.hamburger').on('click', function(){
     $('.navigation').fadeToggle();
 });
 
-
+MicroModal.init();
 
 $("#main-header").headroom();
 

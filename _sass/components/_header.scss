@@ -196,6 +196,7 @@ header {
     }
     .full-header-nav-button {
       border: 1px solid #222;
+      color: #222;
     }
     
 }
@@ -249,6 +250,8 @@ header {
   &-logo {
     width: 30%;
     margin-left: 20px;
+    display: inline-flex;
+    align-items: center;
     @media (max-width: 1200px){
       margin-left: 0;
     }
@@ -282,7 +285,9 @@ header {
       display: block;
       padding: 15px;  
       position: relative;
-      
+      font-weight: 600;
+      color: #fff;
+      cursor: pointer;
       span {
         display: block;
         
