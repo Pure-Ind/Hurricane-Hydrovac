@@ -928,6 +928,19 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
+    position: relative;
+    &:after {
+      content: "";
+      width: 20px;
+      height: 20px;
+      
+      position: absolute;
+      right: -10px;
+      background-image: url(../images/icons/double-arrow.svg);
+    }
+    &:last-of-type:after {
+      display: none;
+    }
     &-icon {
       width: 90px;
       height: 90px;
