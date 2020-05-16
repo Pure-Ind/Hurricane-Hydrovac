@@ -345,6 +345,9 @@ header {
 .top-notice {
   background: #222;
   padding: 6px 0;
+  @media (max-width: 1200px){
+    display: none;
+  }
   &-content {
     text-align: center;
     text-transform: uppercase;
