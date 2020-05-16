@@ -42,7 +42,9 @@ $on-large:         $on-laptop !default;
 }
 
 @import
+
   "base",             // Defines element resets.
+  "components/book-now",
   "buttons",
   "headings",
   "hamburger",
@@ -50,7 +52,7 @@ $on-large:         $on-laptop !default;
   "components/footer",
   "components/hero",
   "components/benifits",
-  "components/book-now",
+  
   "components/hex-grid",
   "components/grid",
   "layout"           // Defines structure and style based on CSS selectors.

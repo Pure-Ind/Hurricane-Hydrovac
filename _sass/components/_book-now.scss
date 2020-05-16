@@ -25,5 +25,10 @@
         border-color: #fff;
         color: #fff;
         font-size: 20px;
+        position: relative;
+        z-index: 4;
+        &:hover {
+            color: #222;
+        }
     }
 }

@@ -13,7 +13,7 @@
                 <ul>
                     {% for item in site.data.navigation %}
                         <li>
-                            <a href="{{ item.url }}">{{ item.title }}</a>
+                            <a class="underline-hover" href="{{ item.url }}">{{ item.title }}</a>
                             {% if item.subnavigation[0] %}
                                 <ul class="dropdown">
                                 {% for subentry in item.subnavigation %}
