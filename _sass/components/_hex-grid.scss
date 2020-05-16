@@ -4,10 +4,13 @@
     position: relative;
     margin-top: 25%;
     line-height: 1;
-    padding: 50px 0 80px 0px;
+    padding: 0 0 30px 0;
     @media (max-width: 1200px){
         padding: 30px;
-        margin-top: 15%;
+        // margin-top: 15%;
+        width: 90%;
+        margin-left:  auto;
+        margin-right:  auto;
     }
     &-item {
         flex: 0 0 50%;
@@ -56,3 +59,9 @@
         }
     }
 }
+
+// .hex-grid-home {
+//     .hex-grid-item:hover {
+        
+//     }
+// }

@@ -48,9 +48,15 @@
     padding: 20px;
   }
 }
+
 .content-first {
   @media (max-width: 1200px) {
     padding-top: 50px;
+  }
+}
+.mid-padding {
+  @media (max-width: 1500px) and (min-width: 1200px) {
+    padding: 0 30px;
   }
 }
 .mobile-padding-section {
@@ -58,6 +64,9 @@
     padding-top: 50px;
     padding-bottom: 50px;
   }
+}
+.section-padding {
+  padding: 50px 0;
 }
 
 .intro-section {
@@ -1015,6 +1024,17 @@
     background-position: center;
   }
 }
+// .services-image-second {
+//   margin-top: -150px;
+//   @media (max-width: 1200px){
+//     margin-top: 0px;
+//   }
+// }
+.hex-grid-services {
+  @media (max-width: 1200px) {
+    margin-top: 20%;
+  }
+}
 .image-banner {
   padding: 200px 0;
   position: relative;
@@ -1261,9 +1281,16 @@
   align-items: center;
   // max-width: 80%;
   // margin: 0 auto;
+  @media (max-width: 1200px){
+    flex-wrap: wrap;
+  }
   &-item {
     padding: 40px;
     width: 25%;
+    @media (max-width: 1200px){
+      width: 50%;
+      padding-top: 20px;
+    }
     img {
       width: 100%;
       height: auto;

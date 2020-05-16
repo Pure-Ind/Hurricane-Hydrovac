@@ -118,6 +118,11 @@
           line-height: 1.8;
           
         }
+        .mobile-large-heading {
+          @media (max-width: 800px){
+            font-size: 50px;
+          } 
+        }
       }
     }
     &-right {
