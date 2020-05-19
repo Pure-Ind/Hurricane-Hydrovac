@@ -1397,6 +1397,9 @@
 }
 .contact-page-form {
   padding: 100px 0;
+  @media (max-width: 1200px) {
+    padding: 100px 30px;
+  }
   form {
     overflow: hidden;
     position: relative;
