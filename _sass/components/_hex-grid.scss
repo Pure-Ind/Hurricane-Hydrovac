@@ -6,14 +6,16 @@
     line-height: 1;
     padding: 0 0 30px 0;
     @media (max-width: 1200px){
-        padding: 30px;
-        margin-top: 15%;
-        width: 90%;
+        padding: 0 0 30px 0;
+        // margin-top: 15%;
+        width: 100%;
         margin-left:  auto;
         margin-right:  auto;
+        max-width: 900px;
     }
     &-item {
         flex: 0 0 50%;
+        padding-left: 4px;
         // height: 100%;
         margin-bottom: -6%;
         filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.65));
@@ -27,6 +29,9 @@
         }
         &:nth-child(odd) {
             margin-top: -25%;   
+            @media (max-width: 1200px){
+                margin-left: 4%;
+            }
         }
         &:nth-child(even) {
             margin-top: -2%;

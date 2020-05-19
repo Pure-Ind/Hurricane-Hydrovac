@@ -29,6 +29,9 @@
   align-items: center;
   text-align: center;
 }
+.bg-light-grey {
+  background: #f8f8f8;
+}
 .dark-bg {
   background: #222;
   .heading-main {
@@ -1001,6 +1004,9 @@
     font-size: 18px;
     color: $brand-color;
     font-weight: 800;
+    @media (max-width: 1200px){
+      font-size: 16px;
+    }
   }
   
   li::before {
@@ -1077,7 +1083,7 @@
     max-width: 1600px;
     margin: 0 auto;
     width: 100%;
-    padding: 0 40px;
+    padding: 0 60px;
     z-index: 2;
     position: relative;
     .learn-more {
@@ -1319,6 +1325,7 @@
   align-items: center;
   // max-width: 80%;
   // margin: 0 auto;
+  padding-bottom: 20px;
   @media (max-width: 1200px){
     flex-wrap: wrap;
   }
@@ -1375,7 +1382,55 @@
   }
 }
 
-
+.contact-addressses {
+  h5 {
+    margin-top: 12px;
+    a {
+      color: #ddd;
+      text-decoration: none;
+      
+      font-size: 18px;
+    }
+  }
+}
+.contact-page-form {
+  padding: 100px 0;
+  form {
+    overflow: hidden;
+    position: relative;
+    z-index: 5;
+    @media (max-width: 1200px){
+      text-align: center;
+    }
+    label {
+      padding-top: 20px;
+       display: block;
+      font-size: 14px;
+      color: #222;
+      @media (max-width: 1200px){
+        text-align: left;
+      }
+    }
+    textarea,
+    input {
+      border: 0;
+      outline: 0;
+      background: transparent;
+      border-bottom: 1px solid #222;
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 10px;
+      color: #ddd;
+    }
+    .btn-outline {
+      border-color: #222;
+      border-width:1px;
+      
+      font-weight: 600;
+      
+     }
+  }
+}
 /**************************\
   Basic Modal Styles
 \**************************/
@@ -1444,6 +1499,11 @@
   margin-bottom: 2rem;
   line-height: 1.5;
   color: rgba(0,0,0,.8);
+  .phone {
+    color: #222;
+    font-weight: 600;
+    text-decoration: none;
+  }
 }
 
 .modal__btn {
@@ -1537,3 +1597,10 @@
 .micromodal-slide .modal__overlay {
   will-change: transform;
 }
+
+.text-link {
+  color: #222;
+  text-decoration: none;
+  font-weight: 600;
+}
+
