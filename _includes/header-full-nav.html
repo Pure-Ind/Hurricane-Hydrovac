@@ -17,7 +17,11 @@
                             {% if item.subnavigation[0] %}
                                 <ul class="dropdown">
                                 {% for subentry in item.subnavigation %}
-                                    <li><a href="{{ subentry.url }}">{{ subentry.title }}</a></li>
+                                    {% if page.url == subentry.url %}
+                                        <li class="active"><a href="{{ subentry.url }}">{{ subentry.title }}</a></li>
+                                    {% else %}
+                                        <li><a href="{{ subentry.url }}">{{ subentry.title }}</a></li>
+                                    {% endif %}
                                 {% endfor %}
                                 </ul>
                             {% endif %}

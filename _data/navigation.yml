@@ -7,10 +7,11 @@
 - title: Services
   url: /services/
   subnavigation:
-      - title: Maintenance
-        url: /services/maintenance/
-      - title: Excavation
+      - title: Hydro Excavation
         url: /services/excavation/
+      - title: Facility Maintenance
+        url: /services/maintenance/
+      
 
 - title: Contact
   url: /contact/
