@@ -138,33 +138,34 @@
     }
     
     .selectParent select {
-      text-indent: 1px;
-      text-overflow: '';
-      width: auto;
-      -webkit-appearance: none;
-      -moz-appearance: none;
-      appearance: none;
-      text-transform: uppercase;
-      font-size: 12px;
-      line-height: 1;
-      font-weight: 800;
-      padding: 10px 2px;
-      margin-right: 10px;
-      border: none;
-      color: #fff;
-      background: #111;
-      position: relative;
-    }
-    .selectParent:after {
-      content: "";
-      width: 26px;
-      height: 30px;
-      content: "";
-      top: -1px;
-      z-index: 2;
-      position: absolute;
-      background: transparent url(../images/down-icon.svg) no-repeat center center;
-      background-size: contain;
-      right: 5px;
-    }
+        text-indent: 1px;
+        text-overflow: '';
+        width: auto;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        text-transform: uppercase;
+        font-size: 12px;
+        line-height: 1;
+        font-weight: 800;
+        padding:10px 2px;
+        margin-right: 10px;
+        border: none;
+        color: #fff;
+        background: transparent;
+        position: relative;
+        z-index: 1;
+      }
+      .selectParent:after {
+        content: "";
+        width: 26px;
+        height: 30px;
+        content: "";
+        top: -1px;
+        z-index: 0;
+        position: absolute;
+        background: transparent url(../images/down-icon.svg) no-repeat center center;
+        background-size: contain;
+        right: 5px;
+      }
   }
