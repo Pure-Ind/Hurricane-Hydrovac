@@ -26,6 +26,9 @@ exclude:
   - README.md
   - LICENSE.txt
   - yarn.lock
+
+include:
+  - _redirects
   
 # Build settings
 theme: hurricane-theme
