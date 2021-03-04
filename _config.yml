@@ -36,4 +36,3 @@ skin: hyrdrovac
 
 plugins:
  - jekyll-seo-tag
- - jekyll-compress-images
