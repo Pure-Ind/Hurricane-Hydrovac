@@ -3,8 +3,8 @@
 Gem::Specification.new do |spec|
   spec.name          = "hurricane-theme"
   spec.version       = "0.1.0"
-  spec.authors       = ["Mark DiCarlo"]
-  spec.email         = ["markdicarlo@gmail.com"]
+  spec.authors       = ["Mark"]
+  spec.email         = [""]
 
   spec.summary       = "Write a short summary, because Rubygems requires one."
   spec.homepage      = "https://pureind.com"
